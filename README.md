@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Code for this paper Robust Overfitting may be mitigated by properly learned smoothing
+Code for this paper [Robust Overfitting may be mitigated by properly learned smoothing](https://openreview.net/forum?id=qZzy5urZw9)
 
 Tianlong Chen\*, Zhenyu Zhang\*, Sijia Liu, Shiyu Chang, Zhangyang Wang
 
