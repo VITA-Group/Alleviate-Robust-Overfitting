@@ -19,7 +19,7 @@ Highlights:
 
 **Training with KD and SWA to mitigate robust overfitting**
 
-![](https://raw.githubusercontent.com/VITA-Group/Alleviate-Robust-Overfitting/main/Figs/flatness.png)
+![](https://github.com/VITA-Group/Alleviate-Robust-Overfitting/blob/main/Figs/train_curve.png)
 
 **Flattening the rugged input space** 
 
