@@ -19,11 +19,11 @@ Highlights:
 
 **Training with KD and SWA to mitigate robust overfitting**
 
-![](\Figs\train_curve.png)
+![](Figs\train_curve.png)
 
 **Flattening the rugged input space** 
 
-![](\Figs\flatness.png)
+![](Figs\flatness.png)
 
 ## Prerequisites
 
