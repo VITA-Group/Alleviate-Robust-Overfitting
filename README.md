@@ -6,15 +6,32 @@ Code for this paper [Robust Overfitting may be mitigated by properly learned smo
 
 Tianlong Chen\*, Zhenyu Zhang\*, Sijia Liu, Shiyu Chang, Zhangyang Wang
 
-Test environment
+## Overview
 
-​	pytorch = 1.5.1
+To alleviate the intriguing problem of robust overfitting, we investigate two empirical means to inject more learned smoothening during adversarial training (**AT**): one leveraging knowledge distillation (**KD**) and self-training to smooth the logits, the other performing stochastic weight averaging (**SWA**) to smooth the weights 
 
-​	torchvision = 0.6.1
+Highlights:
 
-​	advertorch = 0.2.3
+- **Smoothening mitigates robust overfitting:**  After adopting KD and SWA in AT, we mitigated robust overfitting and achieve a better trade-off between standard test accuracy and robustness.
+- **Rich ablation experiments**:  We conducted plenty of ablation experiments and visualizations to investigate the reason why robust overfitting may be mitigated by these smoothening approaches.
 
-​	matplotlib = 3.3.1
+## Experiment Results
+
+**Training with KD and SWA to mitigate robust overfitting**
+
+![](H:\github_repo\Alleviate-Robust-Overfitting\Figs\train_curve.png)
+
+**Flattening the rugged input space** 
+
+![](H:\github_repo\Alleviate-Robust-Overfitting\Figs\flatness.png)
+
+## Prerequisites
+
+- pytorch 1.5.1
+- torchvision 0.6.1 
+- advertorch 0.2.3
+
+## Usage
 
 **Standard Training:**
 
@@ -60,5 +77,11 @@ python -u main_adv.py \
 	--eval \
 	--pretrained pretrained_models/**.pt \
 	--swa #if test with swa_model
+```
+
+## Citation
+
+```
+
 ```
 
