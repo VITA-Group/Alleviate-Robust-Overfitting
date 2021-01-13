@@ -12,7 +12,7 @@ To alleviate the intriguing problem of robust overfitting, we investigate two em
 
 Highlights:
 
-- **Smoothening mitigates robust overfitting:**  After adopting KD and SWA in AT, we mitigated robust overfitting and achieve a better trade-off between standard test accuracy and robustness.
+- **Smoothening mitigates robust overfitting:**  After adopting KD and SWA in AT, we mitigated robust overfitting and achieve a better trade-off between standard test accuracy and robustness than early stopping.
 - **Rich ablation experiments**:  We conducted plenty of ablation experiments and visualizations to investigate the reason why robust overfitting may be mitigated by these smoothening approaches.
 
 ## Experiment Results
